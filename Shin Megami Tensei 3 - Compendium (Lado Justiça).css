@@ -1,0 +1,65 @@
+.listing {
+    list-style: none;
+    margin: 1em;
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(1200px, 1fr));
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 0px 0;
+    font-size: 25.50px;
+}
+  .listing li {
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 3, 112);
+  }
+
+  .listing .body {
+    padding: 10px;
+    font-size: 28.50px;
+  }
+
+  .listing .wide {
+    grid-column-end: span 2;
+  }
+
+  .listing .cta {
+    margin-block-start: auto;
+    border-block-start: 3px solid rgb(0, 0, 0);
+    padding: 0px;
+    text-align: center;
+    color: rgb(112, 105, 105);
+    font-size: 28.50px;
+  }
+
+  h2{
+
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 28.50px;
+    color: rgb(82, 1, 1);
+    text-shadow: 1px 0px 1px rgb(3, 3, 3);
+  }
+
+  img{
+    display: block;
+    padding: 10px;
+    width: calc(20% - 170px);
+}
+
+  h3{
+    display:flex;
+    font-size: 30px;
+    margin: 0%;
+    border-block-start: 3px solid rgb(0, 0, 0);
+    color:rgb(82, 1, 1);
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 0px 1px rgb(3, 3, 3);
+  }
